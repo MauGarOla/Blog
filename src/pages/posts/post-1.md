@@ -25,3 +25,5 @@ Publicado el: 2022-07-01
 ## Próximos pasos
 
 Terminaré el tutorial de Astro, y luego seguiré añadiendo más publicaciones. Mira este espacio para más por venir.
+
+[Back](/blog/)
