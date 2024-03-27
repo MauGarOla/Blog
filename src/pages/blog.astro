@@ -1,7 +1,7 @@
 ---
 import '../styles/global.css';
-import Navigation from '../components/Navigation.astro';
 import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
 
 const pageTitle = "Traveler Blog";
 ---
@@ -12,7 +12,7 @@ const pageTitle = "Traveler Blog";
     <title>{pageTitle}</title>
   </head>
   <body>
-    <Navigation />
+    <Header />
 
     <h1>{pageTitle}</h1>
     <p>This is my traveler blog.</p>
@@ -23,5 +23,10 @@ const pageTitle = "Traveler Blog";
     </ul>
 
     <Footer />
+
+    <script>
+      import "../scripts/menu.js";
+    </script>
+    
   </body>
 </html>
